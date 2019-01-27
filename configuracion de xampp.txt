@@ -1,0 +1,23 @@
+
+abrir el panel de control de xampp... y en servicio apache... detiene el servicio, luego hacer click en config -> Php.ini
+
+Buscar la linea:
+
+max_execution_time = 30
+
+y cambiarla a :
+
+max_execution_time = 360 
+
+Reiniciar el servidor apache.
+
+
+NOTA: si en la configuracion gmail no le aparece la opcion: 
+
+Permitir el acceso a aplicaciones menos seguras 
+
+Debe tener desactivada la opcion : verificacion en dos pasos.
+
+*La aplicacion tambien acepta conexiones con correos de yahoo... debe tener activada la opcion de aplicacion para tercero.
+
+*Para las cuentas outlook.. en configuracion de correo... en cuentas... esta la opcion para activar los servicios smtp.
